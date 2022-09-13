@@ -1,4 +1,4 @@
 import { atom } from "jotai";
-import { TECHNOLOGIES_DATA } from "../utils/TechnologiesData";
+import { SPEAKERS_DATA } from "../utils/SpeakerData";
 
-export const technologiesAtom = atom(TECHNOLOGIES_DATA);
+export const speakerAtom = atom(SPEAKERS_DATA);
