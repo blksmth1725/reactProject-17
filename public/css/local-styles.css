@@ -504,7 +504,8 @@ input:checked+.switch:before {
   flex-grow: 1;
   max-width: 100%;
   position: relative;
-  padding-left: 45px;
+  padding-left: 52px;
+  padding-top: 7px;
 }
 
 .social .company::before,
@@ -777,7 +778,7 @@ input:checked+.switch:before {
 }
 
 .speakers-list {
-  padding: 0 10px 0 0px;
+  padding: 10px 0px 20px 0px;
 }
 
 .card-description {
@@ -842,10 +843,6 @@ input:checked+.switch:before {
     padding-right: 5px;
   }
 
-  .speakers-list {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
 
   .toolbar {
     float: none;
@@ -1182,10 +1179,19 @@ input:checked+.switch:before {
   width: 200px;
 }
 
+
+.h-250 {
+  height: 249.5;
+}
+
+
+/* NEW_ADDITONS */
 .w-100perc {
   width: 100%;
 }
 
-.h-250 {
-  height: 249.5;
+.social-media {
+  display: flex;
+  height: 3rem;
+  align-items: center;
 }
