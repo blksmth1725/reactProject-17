@@ -1,14 +1,15 @@
 import React from "react";
-import SpeakerCard from "../components/SpeakerCard";
-import { data } from "../utils/SpeakerData";
+import Header from "../components/Header";
+import SpeakersToolbar from "../components/SpeakersToolbar";
+import SpeakersList from "../components/Speakers/SpeakersList";
 
 function IndexPage() {
   return (
-    <div className="container speakers-list">
-      <div className="row">
-        {data.map((speaker) => {
-          return <SpeakerCard speaker={speaker} />;
-        })}
+    <div>
+      <Header />
+      <SpeakersToolbar />
+      <div className="container speakers-list">
+        <SpeakersList />
       </div>
     </div>
   );
